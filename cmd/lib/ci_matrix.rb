@@ -65,7 +65,7 @@ module CiMatrix
         "--appcast"
       end
 
-      audit_args = [appcast_arg, "--online"]
+      audit_args = [appcast_arg, "--online", "--debug", "--verbose"]
 
       audit_args << "--new-cask" if changed_files[:added_files].include?(path)
 
