@@ -9,8 +9,7 @@ cask "rar" do
 
   livecheck do
     url "https://www.rarlab.com/download.htm"
-    strategy :page_match
-    regex(%r{href=.*?/rarosx-(\d+(:?\.\d+)*)\.tar\.gz}i)
+    regex(%r{href=.*?/rarosx[._-]v?(\d+(?:\.\d+)+)\.tar\.gz}i)
   end
 
   binary "rar/rar"
