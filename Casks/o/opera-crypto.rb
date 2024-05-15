@@ -1,4 +1,4 @@
-cask "opera-crypto@developer" do
+cask "opera-crypto" do
   version "90.0.4480.128"
   sha256 "f70e9b6a0e99799d4e1d28e9f4f0e66958e74d0c360a915fe25b8b9db4cb2341"
 
