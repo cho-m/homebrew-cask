@@ -1,4 +1,4 @@
-cask "deadbeef@nightly" do
+cask "deadbeef" do
   version :latest
   sha256 :no_check
 
