@@ -1,4 +1,4 @@
-cask "android-studio-preview@beta" do
+cask "android-studio@beta" do
   arch arm: "mac_arm", intel: "mac"
 
   version "2024.1.1.7"
