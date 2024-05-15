@@ -1,5 +1,6 @@
 {
   "android-studio-preview@beta": "android-studio@beta",
+  "android-studio-preview@canary": "android-studio@canary",
   "ankerslicer": "ankermake",
   "ankiapp-anki": "ankiapp",
   "autodesk-fusion360": "autodesk-fusion",

@@ -1,4 +1,4 @@
-cask "android-studio-preview@canary" do
+cask "android-studio@canary" do
   arch arm: "mac_arm", intel: "mac"
 
   version "2024.1.2.1"
