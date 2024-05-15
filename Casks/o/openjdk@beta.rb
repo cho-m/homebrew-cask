@@ -1,4 +1,4 @@
-cask "java@beta" do
+cask "openjdk@beta" do
   arch arm: "aarch64", intel: "x64"
 
   version "23,22"
