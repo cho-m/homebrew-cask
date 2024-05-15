@@ -18,7 +18,7 @@ cask "wine@devel" do
   end
 
   conflicts_with cask: [
-    "wine-stable",
+    "wine",
     "wine@staging",
   ]
   depends_on cask: "gstreamer-runtime"
