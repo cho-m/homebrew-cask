@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Cancel Previous Runs
-        uses: n1hility/cancel-previous-runs@953c92201f368370112ea2754545cb4468d89f12
+        uses: n1hility/cancel-previous-runs@e709d8e41b16d5d0b8d529d293c5e126c57dc022
         with:
           token: ${{ github.token }}
 
