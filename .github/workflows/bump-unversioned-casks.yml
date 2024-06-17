@@ -30,7 +30,7 @@ jobs:
           concurrent_skipping: always
 
       - name: Cancel this build
-        uses: andymckay/cancel-action@8f8510d9dea52fcc8eb6ca10d6ce47fd5fc43cd8
+        uses: andymckay/cancel-action@a955d435292c0d409d104b57d8e78435a93a6ef1
         if: fromJSON(steps.skip.outputs.should_skip)
 
       - name: Set up Homebrew
